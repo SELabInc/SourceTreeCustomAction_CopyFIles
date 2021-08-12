@@ -2,17 +2,16 @@ import sys
 import os
 import shutil
 
-def copyFileMethod(outputList):
+logList =[]
+mainSource= sys.argv[1].replace("\\" , os.sep)
 
-    copySource = os.path.join('C:',  os.sep,'CopyFiles')
-    os.makedirs(copySource, exist_ok=True)
+def copyEachFile(outputList):
 
     for index, mkFile in enumerate(outputList):
-
         originPath = mainSource +  os.sep + mkFile
 
         if os.path.isfile(originPath):
-
+            logList.append(originPath)
             copySource = os.path.join('C:',  os.sep,'CopyFiles')
             chkList = mkFile.split("/")
 
@@ -25,30 +24,40 @@ def copyFileMethod(outputList):
             try:
                 # os.popen('copy {0} {1}'.format(originPath, copySource))
                 shutil.copy(originPath, copySource)
+
             except BaseException as e:
                 print(e)
 
-            results = round((index+1) /len(outputList), 2 ) * 100
-            print("{0:>6.2f}% - {1}".format(results, originPath))
+            finally:
+                results = round((index+1) /len(outputList), 2 ) * 100
+                print("{0:>6.2f}% - {1}".format(results, originPath))
 
+
+def copyFileMethod(outputList):
+
+    copySource = os.path.join('C:',  os.sep,'CopyFiles')
+    os.makedirs(copySource, exist_ok=True)
+    copyEachFile(outputList)
+
+    logFileName = copySource + os.sep + "logFile.txt"
+    f = open(logFileName, 'w')
+
+    for logs in logList:
+        f.write(logs+"\n")
+    f.close()
 
 if __name__ == "__main__" :
 
     print("SourceTree Copy Start")
 
-    mainSource = sys.argv[1]
-    lastSHA = sys.argv[2]
-    startSHA = sys.argv[len(sys.argv)-1]
-
-    mainSource= mainSource.replace("\\" , os.sep)
     os.system('cd {}'.format(mainSource))
-
-    output = os.popen('git diff --name-only {0} {1}'.format(startSHA, lastSHA)).read()
+    output = os.popen('git diff --name-only {0} {1}'.format(sys.argv[len(sys.argv)-1], sys.argv[2])).read()
 
     copyFileMethod(output.splitlines())
     
-print("작업이 완료되었습니다!")
+
+print("Copy Finished!\nPlease check the logFile of the copied directory.")
+os.system('pause')
 
 copySource = os.path.join('C:',  os.sep,'CopyFiles')
-os.system('pause')
 os.startfile(copySource)
