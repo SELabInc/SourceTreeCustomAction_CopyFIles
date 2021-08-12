@@ -348,7 +348,7 @@
   ('opcode', 'c:\\python38\\lib\\opcode.py', 'PYMODULE'),
   ('ast', 'c:\\python38\\lib\\ast.py', 'PYMODULE'),
   ('stringprep', 'c:\\python38\\lib\\stringprep.py', 'PYMODULE'),
-  ('tracemalloc', 'c:\\python38\\lib\\tracemalloc.py', 'PYMODULE'),
   ('_py_abc', 'c:\\python38\\lib\\_py_abc.py', 'PYMODULE'),
+  ('tracemalloc', 'c:\\python38\\lib\\tracemalloc.py', 'PYMODULE'),
   ('datetime', 'c:\\python38\\lib\\datetime.py', 'PYMODULE'),
   ('os', 'c:\\python38\\lib\\os.py', 'PYMODULE')])
