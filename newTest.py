@@ -19,8 +19,8 @@ def copyFileMethod(outputList):
 
         os.makedirs(copySource, exist_ok=True)
         os.popen('copy {0} {1}'.format(originPath, copySource))
-
-        print("{0:03d}|{1:03d} : {2} ".format(index, len(outputList), originPath))
+        results = round((index+1) /len(outputList), 2 ) * 100
+        print("{0:>6.2f}% - {1}".format(results, originPath))
 
 
 if __name__ == "__main__" :
