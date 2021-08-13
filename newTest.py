@@ -3,12 +3,11 @@ import os
 import shutil
 
 logList =[]
-mainSource= sys.argv[1].replace("\\" , os.sep)
 
-def copyEachFile(outputList):
-
+def copyEachFile(outputList, mainSource):
+   
     for index, mkFile in enumerate(outputList):
-        originPath = mainSource +  os.sep + mkFile
+        originPath = os.sep.join([mainSource, mkFile]) 
 
         if os.path.isfile(originPath):
             logList.append(originPath)
@@ -33,27 +32,26 @@ def copyEachFile(outputList):
                 print("{0:>6.2f}% - {1}".format(results, originPath))
 
 
-def copyFileMethod(outputList):
-
+def copyFileMethod(outputList, mainSource):
     copySource = os.path.join('C:',  os.sep,'CopyFiles')
     os.makedirs(copySource, exist_ok=True)
-    copyEachFile(outputList)
-
+    copyEachFile(outputList, mainSource)
     logFileName = copySource + os.sep + "logFile.txt"
     f = open(logFileName, 'w')
 
     for logs in logList:
         f.write(logs+"\n")
+
     f.close()
 
 if __name__ == "__main__" :
 
     print("SourceTree Copy Start")
-
-    os.system('cd {}'.format(mainSource))
-    output = os.popen('git diff --name-only {0} {1}'.format(sys.argv[len(sys.argv)-1], sys.argv[2])).read()
-
-    copyFileMethod(output.splitlines())
+    mainSource= sys.argv[1].replace("\\" , os.sep)
+    os.chdir(mainSource)
+    alloutput = os.popen('git diff --name-only {0} {1}'.format(sys.argv[len(sys.argv)-1], sys.argv[2])).read()
+    output = os.popen('git diff --name-only --diff-filter=d {0} {1}'.format(sys.argv[len(sys.argv)-1], sys.argv[2])).read()
+    copyFileMethod(output.splitlines(), mainSource)
     
 
 print("Copy Finished!\nPlease check the logFile of the copied directory.")
