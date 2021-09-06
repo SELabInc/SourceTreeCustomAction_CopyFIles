@@ -36,27 +36,51 @@
    'C:\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('Copys', 'D:\\practices\\customActionProgram\\Copys.py', 'PYSOURCE'),
+<<<<<<< HEAD
   ('VCRUNTIME140.dll', 'c:\\python\\python39\\VCRUNTIME140.dll', 'BINARY'),
+=======
+>>>>>>> 3800802b5d922e95697e9128cc75c537e802dc12
   ('api-ms-win-crt-heap-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('api-ms-win-crt-runtime-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
    'BINARY'),
   ('python39.dll', 'c:\\python\\python39\\python39.dll', 'BINARY'),
+=======
+>>>>>>> 3800802b5d922e95697e9128cc75c537e802dc12
   ('api-ms-win-crt-stdio-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
+=======
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+>>>>>>> 3800802b5d922e95697e9128cc75c537e802dc12
   ('api-ms-win-crt-math-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('api-ms-win-crt-locale-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+=======
+  ('VCRUNTIME140.dll', 'c:\\python\\python39\\VCRUNTIME140.dll', 'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('python39.dll', 'c:\\python\\python39\\python39.dll', 'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\ucrtbase.dll',
+>>>>>>> 3800802b5d922e95697e9128cc75c537e802dc12
    'BINARY'),
   ('api-ms-win-crt-convert-l1-1-0.dll',
    'C:\\Program '
@@ -66,8 +90,14 @@
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('ucrtbase.dll',
    'C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\ucrtbase.dll',
+=======
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+>>>>>>> 3800802b5d922e95697e9128cc75c537e802dc12
    'BINARY'),
   ('api-ms-win-crt-process-l1-1-0.dll',
    'C:\\Program '
@@ -77,10 +107,13 @@
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('api-ms-win-crt-time-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
    'BINARY'),
+=======
+>>>>>>> 3800802b5d922e95697e9128cc75c537e802dc12
   ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
@@ -89,6 +122,7 @@
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('api-ms-win-core-util-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
@@ -116,23 +150,66 @@
   ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+=======
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
+>>>>>>> 3800802b5d922e95697e9128cc75c537e802dc12
    'BINARY'),
   ('api-ms-win-core-console-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('api-ms-win-core-synch-l1-2-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+=======
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+>>>>>>> 3800802b5d922e95697e9128cc75c537e802dc12
    'BINARY'),
   ('api-ms-win-core-errorhandling-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
+=======
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+>>>>>>> 3800802b5d922e95697e9128cc75c537e802dc12
   ('api-ms-win-core-heap-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('api-ms-win-core-file-l1-2-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
@@ -160,11 +237,41 @@
   ('api-ms-win-core-processthreads-l1-1-1.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+=======
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+>>>>>>> 3800802b5d922e95697e9128cc75c537e802dc12
    'BINARY'),
   ('api-ms-win-core-rtlsupport-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('api-ms-win-core-namedpipe-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
@@ -188,6 +295,27 @@
   ('api-ms-win-core-file-l1-1-0.dll',
    'C:\\Program '
    'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
+=======
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+>>>>>>> 3800802b5d922e95697e9128cc75c537e802dc12
    'BINARY'),
   ('_lzma', 'c:\\python\\python39\\DLLs\\_lzma.pyd', 'EXTENSION'),
   ('_bz2', 'c:\\python\\python39\\DLLs\\_bz2.pyd', 'EXTENSION'),

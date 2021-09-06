@@ -434,9 +434,15 @@
   ('dis', 'c:\\python\\python39\\lib\\dis.py', 'PYMODULE'),
   ('opcode', 'c:\\python\\python39\\lib\\opcode.py', 'PYMODULE'),
   ('ast', 'c:\\python\\python39\\lib\\ast.py', 'PYMODULE'),
+<<<<<<< HEAD
   ('_py_abc', 'c:\\python\\python39\\lib\\_py_abc.py', 'PYMODULE'),
   ('stringprep', 'c:\\python\\python39\\lib\\stringprep.py', 'PYMODULE'),
   ('tracemalloc', 'c:\\python\\python39\\lib\\tracemalloc.py', 'PYMODULE'),
+=======
+  ('stringprep', 'c:\\python\\python39\\lib\\stringprep.py', 'PYMODULE'),
+  ('tracemalloc', 'c:\\python\\python39\\lib\\tracemalloc.py', 'PYMODULE'),
+  ('_py_abc', 'c:\\python\\python39\\lib\\_py_abc.py', 'PYMODULE'),
+>>>>>>> 3800802b5d922e95697e9128cc75c537e802dc12
   ('shutil', 'c:\\python\\python39\\lib\\shutil.py', 'PYMODULE'),
   ('tarfile', 'c:\\python\\python39\\lib\\tarfile.py', 'PYMODULE'),
   ('os', 'c:\\python\\python39\\lib\\os.py', 'PYMODULE')])
