@@ -1,7 +1,7 @@
 
 pip install pyinstaller 설치
 
-pyinstaller --onefile newTest.py
+pyinstaller --onefile Copys.py
 
 파일을 exe 로 만들어줌
 
