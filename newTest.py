@@ -59,9 +59,18 @@ def copyFileMethod(outputList, mainSource):
 def filteringList(outputList, typeList, typeValueDic):
     selector = 99
     while selector > -1:
+
+        if selector == 8887:
+            print("=========================================================")
+            print("전체 파일 리스트")
+            for index, output in enumerate(outputList):
+                print("{0} : {1}".format(index, output))
+
+
         print("=========================================================")
-        print("복사하지 않을 확장자 번호를 선택하세요")
-        print("취소하려면 0번을 선택해주세요.")
+        print("복사하지 않을 확장자의 번호를 입력하세요")
+        print("파일 리스트를 보고싶으면 8888을 입력해주세요.")
+        print("파일 복사를 시작하려면 0번을 선택해주세요.")
         for turples in  typeValueDic.items():
             print("{0} : {1}".format(turples[1] + 1, turples[0]))
         try:
@@ -78,7 +87,7 @@ def filteringList(outputList, typeList, typeValueDic):
             del typeValueDic[tempnum]
             print("=========================================================")
             print("{0} 확장자 제외 완료 ".format(tempnum))
-
+        
 
     for filteredTurple in typeValueDic.items():
         for filtering in typeList[filteredTurple[1]]:
